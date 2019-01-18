@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>Paso 3: Para cada interfaz de audio, habilitar toda entrada y salida | Introducción a la Producción Musical </title>
+<title>Ejemplo de solución 0203 | Introducción a la Producción Musical </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta name="author" content="Julio Benavides - Instituto Superior Orson Welles" />
 <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
@@ -16,7 +16,7 @@
 <script type="text/javascript" src="common.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body class="exe-web-site" id="exe-node-16"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-28"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <header id="header" ><div id="headerContent">Introducción a la Producción Musical</div></header>
@@ -38,7 +38,7 @@
       <li><a href="paso_0_comprobar_el_funcionamiento_del_controlador_midi.html" class="no-ch">Paso 0: Comprobar el funcionamiento del controlador MIDI</a></li>
       <li><a href="paso_1_seleccionar_el_controlador_de_audio.html" class="no-ch">Paso 1: Seleccionar el controlador de audio</a></li>
       <li><a href="paso_2_habilitar_todos_los_interfaces_de_audio.html" class="no-ch">Paso 2: Habilitar todos los interfaces de audio</a></li>
-      <li id="active"><a href="paso_3_para_cada_interfaz_de_audio_habilitar_toda_entrada_y_salida.html" class="active no-ch">Paso 3: Para cada interfaz de audio, habilitar toda entrada y salida</a></li>
+      <li><a href="paso_3_para_cada_interfaz_de_audio_habilitar_toda_entrada_y_salida.html" class="no-ch">Paso 3: Para cada interfaz de audio, habilitar toda entrada y salida</a></li>
       <li><a href="paso_4_etiquetar_todas_las_entradas_y_salidas_que_existan.html" class="no-ch">Paso 4: Etiquetar todas las entradas y salidas que existan</a></li>
       <li><a href="paso_5_seleccionar_puertos_midi_a_utilizar.html" class="no-ch">Paso 5: Seleccionar puertos MIDI a utilizar</a></li>
       <li><a href="paso_6_prueba_del_sistema.html" class="daddy">Paso 6: Prueba del sistema</a>
@@ -50,7 +50,7 @@
       </li>
       <li><a href="ejercicios_de_secuenciacin_1.html" class="no-ch">EJERCICIOS DE SECUENCIACIÓN 1</a></li>
       <li><a href="ejemplo_de_solucin_y_variantes_0201.html" class="no-ch">Ejemplo de solución y variantes 0201</a></li>
-      <li><a href="ejemplo_de_solucin_0203.html" class="no-ch">Ejemplo de solución 0203</a></li>
+      <li id="active"><a href="ejemplo_de_solucin_0203.html" class="active no-ch">Ejemplo de solución 0203</a></li>
       <li><a href="ejemplo_de_solucin_0204.html" class="no-ch">Ejemplo de solución 0204</a></li>
    </ul>
    </li>
@@ -58,33 +58,41 @@
 </nav>
 <div id='topPagination'>
 <nav class="pagination noprt">
-<a href="paso_2_habilitar_todos_los_interfaces_de_audio.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="paso_4_etiquetar_todas_las_entradas_y_salidas_que_existan.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="ejemplo_de_solucin_y_variantes_0201.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="ejemplo_de_solucin_0204.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </nav>
 </div>
 <div id="main-wrapper">
 <section id="main">
-<header id="nodeDecoration"><h1 id="nodeTitle">Paso 3: Para cada interfaz de audio, habilitar toda entrada y salida</h1></header>
-<article class="iDevice_wrapper preknowledgeIdevice em_iDevice" id="id40">
+<header id="nodeDecoration"><h1 id="nodeTitle">Ejemplo de solución 0203</h1></header>
+<article class="iDevice_wrapper preknowledgeIdevice em_iDevice" id="id64">
 <div class="iDevice emphasis1" >
-<header class="iDevice_header"><h1 class="iDeviceTitle">Entradas y salidas de cada interfaz</h1></header>
+<header class="iDevice_header"><h1 class="iDeviceTitle">Conocimiento previo</h1></header>
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
-<div id="ta40_53_2" class="block iDevice_content">
-<p><span style="font-size: 14pt;">Cada interfaz tiene entradas y salidas de audio, analógicas y digitales. Es muy recomendable habilitarlas todas para cubrir todas las necesidades y prestaciones que el interfaz nos pueda dar:</span></p>
-<p><span style="font-size: 14pt;"><img src="03.jpg" alt="entradas y saldias" width="1405" height="768" /></span></p>
+<div id="ta64_64_2" class="block iDevice_content">
+<p><span style="font-size: 14pt;"><a id="solucion_0203"></a>En música muchas veces se compone una pieza no necesariamente en el orden en el que el oyente lo escucha.</span></p>
+<p><span style="font-size: 14pt;">Este es el caso.  Aunque nuestro enunciado dice que el helicóptero es lo primero que debe sonar, por una cuestión de estrategia sabemos que el elemento más relevante es el choque del auto: después de él vienen los ladridos y antes de él debería estár sonando el helicóptero.</span></p>
+<p><span style="font-size: 14pt;">Por cierto tú puedes construir la secuencia como mejor te parezca, pero reflexiona, cuando quieras construir algo qué elementos es mejor poner antes...</span></p>
+<p><img src="0203_solucion.jpg" alt="solucion 0203" width="1213" height="433" /></p>
+<p><span style="font-size: 14pt;"><audio controls="controls" src="0203_solucion.mp3" class="mediaelement"><a href="0203_solucion.mp3">audio/mpeg</a></audio><br /></span></p>
+<p><span style="font-size: 14pt;">En sesiones siguientes veremos cómo podemos darle dinámica a nuestro helicóptero</span></p>
+<ul style="list-style-type: disc;">
+<li><span style="font-size: 14pt;">Que el volumen suba o baje paulatinamente</span></li>
+<li><span style="font-size: 14pt;">Que aparezca por un parlante y se vaya desplazando hacia el otro lentamente...</span></li>
+</ul>
 </div>
 </div>
 </div>
 </div>
 </article>
-<article class="iDevice_wrapper FreeTextIdevice" id="id50">
+<article class="iDevice_wrapper FreeTextIdevice" id="id65">
 <div class="iDevice emphasis0">
-<div id="ta50_85" class="block iDevice_content">
-<table border="1">
+<div id="ta65_85" class="block iDevice_content">
+<table border="1" width="600" height="40" style="width: 617px;">
 <tbody>
 <tr>
-<td style="width: 530px;"><strong><span style="font-size: 14pt;"><a href="s02_puesta_en_marcha.html"></a></span><span style="font-size: 14pt;"><a href="s02_puesta_en_marcha.html">Volver a S02</a><a href="s02_puesta_en_marcha.html">Puesta en marcha</a></span></strong></td>
-<td style="width: 253px;"><strong><span style="font-size: 14pt;"><a href="index.html">Volver a Inicio</a></span></strong></td>
+<td style="width: 432.386px;"><span style="font-size: 14pt;"><strong><a href="s02_puesta_en_marcha.html"></a><a href="ejercicios_de_secuenciacin_1.html">Volver a Ejercicios de Secuenciación 1</a></strong></span></td>
+<td style="width: 168.75px;"><span style="font-size: 14pt;"><strong><a href="index.html">Volver a Inicio</a></strong></span></td>
 </tr>
 </tbody>
 </table>
@@ -98,7 +106,7 @@
 </div>
 <div id='bottomPagination'>
 <nav class="pagination noprt">
-<a href="paso_2_habilitar_todos_los_interfaces_de_audio.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="paso_4_etiquetar_todas_las_entradas_y_salidas_que_existan.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="ejemplo_de_solucin_y_variantes_0201.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="ejemplo_de_solucin_0204.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </nav>
 </div>
 </div>
